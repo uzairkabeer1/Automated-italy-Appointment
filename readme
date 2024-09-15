@@ -1,4 +1,4 @@
-# README for BLS Appointment Booking Automation Script
+# BLS Appointment Booking Automation Script
 
 ## Overview
 This Python script automates the process of logging into the BLS Italy Pakistan appointment system, checking for available appointments, and attempting to book one using the **Playwright** browser automation tool. The script is integrated with **2Captcha** to solve both image-based CAPTCHAs and reCAPTCHA v2 challenges. It periodically refreshes the page to check for new appointment availability and tries to book an appointment when it becomes available.
