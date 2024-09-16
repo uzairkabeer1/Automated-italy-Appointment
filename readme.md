@@ -1,5 +1,21 @@
 # BLS Appointment Booking Automation Script
 
+____________________________________________________________________________
+## 🚨 Important Note: Captcha Handling 🚨
+
+Please be aware of the following regarding captcha handling:
+
+- **Captcha v2**: The login captcha might take a significant amount of time to complete, as it is v2. 
+- **Text Captcha**: This typically processes in no time.
+
+If you encounter a captcha type that differs from what is described (for example, if text captcha appears instead of v2), you might need to adjust the captcha handling in your code:
+
+1. **Swapping Captcha Handling**: If there is a shift in captcha type, swap the lines of code relevant to captcha handling as necessary.
+2. **Captcha v2 Site-Key**: If you need to handle captcha v2 specifically, ensure you include the captcha v2 site-key. You can find this site-key by inspecting the element on the captcha page.
+
+Make sure to update your implementation based on the current captcha type to ensure smooth functionality.
+______________________________________________________________________________
+
 ## Overview
 This Python script automates the process of logging into the BLS Italy Pakistan appointment system, checking for available appointments, and attempting to book one using the **Playwright** browser automation tool. The script is integrated with **2Captcha** to solve both image-based CAPTCHAs and reCAPTCHA v2 challenges. It periodically refreshes the page to check for new appointment availability and tries to book an appointment when it becomes available.
 
