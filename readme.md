@@ -60,7 +60,7 @@ This Python script automates the process of logging into the BLS Italy Pakistan 
 1. Ensure all dependencies are installed.
 2. Run the script from the terminal:
    ```bash
-   python main.py
+   python play2.py
    ```
 
 ## Key Functions
